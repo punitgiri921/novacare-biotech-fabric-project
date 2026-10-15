@@ -26,6 +26,21 @@
 | **Power BI Storage Mode** | **Direct Lake (PBIP / TMDL)** | Sub-second query response over 30M rows |
 | **Evaluation Standard** | **4-Tier Objective Scoring (0–10 Scale)** | Average pass score >= 8.0 / 10 |
 | **Known Gaps** | **None (Project Initialization)** | Remediated through targeted drills |
+| **Resume Anchor (Next Step)** | **Answer Gate Question `TQ-01` (Lakehouse vs SQL Endpoint)** | Immediate action upon session resume |
+
+---
+
+### 📍 Session Checkpoint (Saved 2026-10-15)
+- **Completed Today**:
+  1. Created 3-Tier Fabric Workspaces (`NC-Biotech-DEV`).
+  2. Provisioned OneLake Medallion Lakehouses (`lh_novacare_bronze`, `silver`, `gold`).
+  3. Built and executed `nb_00_generate_bronze_data` in 31s, populating 8 Delta tables (235k rows).
+  4. Authored and ratified `docs/architecture_spec.md` under 7-Lens Production Review.
+  5. Initialized Git, created `main`, `test`, and `dev` branches, and pushed to GitHub.
+- **Resume Point Tomorrow**:
+  - Start with **Phase 0 Gate Defense Exam (`TQ-01`)**:
+    * Compute & permission differences between Lakehouse and SQL analytics endpoint.
+    * Why Spark threw `UnsupportedOperationException` when targeted at SQL endpoint.
 
 ---
 
