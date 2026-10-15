@@ -1,0 +1,36 @@
+# OS & System Files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+
+# Fabric / Power BI Local Cache & Temp
+*.tmp
+*.temp
+*.log
+*.pbix.cache
+
+# Environment Variables & Secrets
+.env
+.env.*
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# IDE & Editor metadata
+.idea/
+.vscode/settings.json
+.system_generated/
+scratch/

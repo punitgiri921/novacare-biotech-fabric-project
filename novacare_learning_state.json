@@ -1,0 +1,119 @@
+{
+  "project_name": "NovaCare Biotech — Enterprise Microsoft Fabric & Power BI Lakehouse (30M+ Rows)",
+  "version": "1.0",
+  "last_updated": "2026-10-15T16:37:00+05:30",
+  "session_dates": ["2026-10-14", "2026-10-15"],
+  "learner": "Punit",
+  "coach": "Antigravity",
+  "overall_progress_pct": 8,
+  "current_phase": 0,
+  "current_phase_name": "Phase 0 — Foundations, Tenant Governance & Dual-Source Data Generation",
+  "current_task": "T0.5: Git Repository Initialization & Workspace Branch Protection",
+  "phase_gate_pass_threshold": 8.0,
+  "data_scale_target": "30M+ Rows (15M Claims, 8M Shipments, 5M HCP Calls, 2M Encounters)",
+  "dual_source_architecture": {
+    "source_1_manufacturer": "ERP, Batch Lot Expiration, Cold-Chain Distribution, Contractual Rebates (Source of Truth)",
+    "source_2_external_ecosystem": "HCP Detailing Calls, Prescription Claims (Rx), Payer Billing, NPI Provider Registry, Adverse Events"
+  },
+  "phases": [
+    {
+      "phase_id": 0,
+      "name": "Phase 0 — Foundations, Tenant Governance & Dual-Source Data Generation",
+      "status": "In Progress",
+      "progress_pct": 80,
+      "gate_score": null,
+      "tasks": [
+        {"task_id": "T0.1", "name": "Fabric Workspace Architecture & Lakehouse Topology Setup", "status": "Completed", "evidence": "Verified UI screenshot: Fabric Trial workspace established with DEV environment"},
+        {"task_id": "T0.2", "name": "OneLake Lakehouses Provisioning (Bronze, Silver, Gold)", "status": "Completed", "evidence": "Verified UI screenshot: lh_novacare_bronze, lh_novacare_silver, lh_novacare_gold provisioned with automatic SQL analytics endpoints"},
+        {"task_id": "T0.3", "name": "Synthetic 30M+ Data Generation Engine (Python / PySpark generator)", "status": "Completed", "evidence": "Verified UI screenshot: nb_00_generate_bronze_data executed in 31s; all 8 dual-source Delta tables created and registered in lh_novacare_bronze"},
+        {"task_id": "T0.4", "name": "Authoring System Architecture Specification (docs/architecture_spec.md)", "status": "Completed", "evidence": "Formal 7-Lens System Architecture Specification authored and ratified at docs/architecture_spec.md"},
+        {"task_id": "T0.5", "name": "Git Repository Initialization & Workspace Branch Protection", "status": "In Progress", "evidence": null}
+      ]
+    },
+    {
+      "phase_id": 1,
+      "name": "Phase 1 — Ingestion Pipelines, Shortcuts & Fabric Dataflows Gen2",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 2,
+      "name": "Phase 2 — PySpark Notebooks & Lakehouse Silver Transformation",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 3,
+      "name": "Phase 3 — Gold Kimball Dimensional Modeling & Delta Optimization",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 4,
+      "name": "Phase 4 — Power BI Direct Lake Semantic Modeling (PBIP / TMDL)",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 5,
+      "name": "Phase 5 — Enterprise Security Governance (Dynamic RLS, OLS & Fabric RBAC)",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 6,
+      "name": "Phase 6 — Multi-Stage Deployment Pipelines & Workspace Governance",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 7,
+      "name": "Phase 7 — Azure DevOps CI/CD & Tabular Editor 2 BPA Quality Gates",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 8,
+      "name": "Phase 8 — Fabric Monitoring, Capacity Telemetry & Performance Tuning",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 9,
+      "name": "Phase 9 — Chaos Engineering & Sabotage Labs (20 Failure Drills)",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    },
+    {
+      "phase_id": 10,
+      "name": "Phase 10 — The Architecture Gauntlet Defense & Capstone Certification",
+      "status": "Not Started",
+      "progress_pct": 0,
+      "gate_score": null,
+      "tasks": []
+    }
+  ],
+  "topic_mastery_scores": {},
+  "knowledge_gaps": [],
+  "remediation_status": {},
+  "verified_evidence": [],
+  "troubleshooting_log": []
+}
